@@ -2,7 +2,7 @@
 include 'UserService.php';
 session_start();
 
-$db = mysqli_connect('localhost', 'root', 'root', 'test_task');
+$db = mysqli_connect('database_link', 'user', 'password', 'database_name');
 
 $errors   = array();
 
